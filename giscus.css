@@ -1,7 +1,54 @@
-.color-bg-tertiary.color-border-primary.gsc-comment-box-tabs {
-    background: #1a1e28;
+body * {
+    border-color: #3f485e;
 }
-
 .gsc-comment-box-tabs {
     background: #1a1e28;
 }
+.input-contrast:focus {
+    background-color: #181e29;
+}
+.gsc-comment-box-textarea:focus {
+    border-color: #3e4350;
+}
+.input-contrast {
+    background-color: #181e29;
+}
+.BtnGroup-item.BtnGroup-item--selected {
+    background-color: transparent;
+}
+.color-bg-tertiary.color-border-primary.gsc-comment-box-tabs {
+    background: #272d3b;
+}
+.gsc-comment-box-textarea-extras {
+    background: #272d3b;
+}
+.color-box-border-info {
+    border-color: #4b4b4b;
+}
+.color-border-primary {
+    border-color: transparent;
+}
+.form-control {
+    border-color: #3e4350;
+    background-color: #1d1f28;
+}
+.color-bg-canvas {
+    background: #303748;
+}
+.color-bg-primary {
+    background: #303748;
+}
+.btn-primary,
+.btn-primary:disabled {
+    background-color: #256586;
+    border-color: #307193;
+    color: #ffffff;
+}
+.btn {
+    background-color: transparent;
+    border-color: transparent;
+}
+.color-fg-default, .color-text-primary, .link-primary {
+    color: #e5e5e5;
+}
+
