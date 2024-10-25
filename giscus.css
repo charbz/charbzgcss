@@ -15,6 +15,7 @@ body * {
 }
 .BtnGroup-item.BtnGroup-item--selected {
     background-color: transparent;
+    border-color: transparent;
 }
 .color-bg-tertiary.color-border-primary.gsc-comment-box-tabs {
     background: #272d3b;
@@ -23,14 +24,14 @@ body * {
     background: #272d3b;
 }
 .color-box-border-info {
-    border-color: #4b4b4b;
+    border-color: transparent;
 }
 .color-border-primary {
     border-color: transparent;
 }
 .form-control {
-    border-color: #3e4350;
-    background-color: #1d1f28;
+    border-color: transparent;
+    background-color: ##181e29;
 }
 .color-bg-canvas {
     background: #303748;
@@ -38,8 +39,8 @@ body * {
 .color-bg-primary {
     background: #303748;
 }
-.btn-primary,
-.btn-primary:disabled {
+.btn.btn-primary,
+.btn.btn-primary:disabled {
     background-color: #256586;
     border-color: #307193;
     color: #ffffff;
@@ -50,5 +51,16 @@ body * {
 }
 .color-fg-default, .color-text-primary, .link-primary {
     color: #e5e5e5;
+}
+.gsc-social-reaction-summary-item,
+.gsc-social-reaction-summary-item.has-reacted {
+    background-color: #303748;
+    border-color: transparent;
+}
+.gsc-social-reaction-summary-item,
+.gsc-social-reaction-summary-item.has-reacted,
+.gsc-social-reaction-summary-item.has-reacted:hover,
+.gsc-social-reaction-summary-item.has-reacted:hover:enabled {
+    background-color: #303748;
 }
 
