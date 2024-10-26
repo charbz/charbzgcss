@@ -34,10 +34,10 @@ body * {
     background-color: #181e29;
 }
 .color-bg-canvas {
-    background: #303748;
+    background: #222632;
 }
 .color-bg-primary {
-    background: #303748;
+    background: #222632;
 }
 .btn.btn-primary,
 .btn.btn-primary:disabled {
@@ -95,5 +95,10 @@ body * {
     display: flex;
     gap: .5rem;
     justify-content: space-between;
-    margin-bottom: 0;
+    margin-bottom: 8px;
+}
+
+.gsc-reply-box .form-control {
+    background: #222632;
+    border-color: transparent;
 }
