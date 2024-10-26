@@ -21,7 +21,7 @@ body * {
     background: #272d3b;
 }
 .gsc-comment-box-textarea-extras {
-    background: #272d3b;
+    display: none;
 }
 .color-box-border-info {
     border-color: transparent;
@@ -31,7 +31,7 @@ body * {
 }
 .form-control {
     border-color: transparent;
-    background-color: ##181e29;
+    background-color: #181e29;
 }
 .color-bg-canvas {
     background: #303748;
@@ -63,4 +63,37 @@ body * {
 .gsc-social-reaction-summary-item.has-reacted:hover:enabled {
     background-color: #303748;
 }
-
+.gsc-reactions-popover.open {
+    background: #272d3b;
+    border: 1px solid #535353;
+}
+.gsc-reactions-popover.open.bottom:before {
+    border-bottom-color: #535353;
+}
+.gsc-reactions-popover.open.top:before {
+    border-top-color: #535353;
+}
+.gsc-emoji-button.has-reacted {
+    border-width: 0px;
+    opacity: 0.3;
+}
+.gsc-reply-box {
+    border-top-width: 0;
+    padding-inline-end: 0;
+    padding-bottom: 0px;
+    padding-inline-start: 0;
+    padding-top: 0;
+    width: 103px;
+    color: #7c8190;
+    margin-left: auto;
+}
+.color-bg-tertiary {
+    background-color: #303748;
+}
+.gsc-comment-footer, .gsc-reply-footer {
+    align-content: center;
+    display: flex;
+    gap: .5rem;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
