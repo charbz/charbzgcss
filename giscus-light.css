@@ -65,13 +65,13 @@ body * {
 }
 .gsc-reactions-popover.open {
     background: #fff;
-    border: 1px solid #535353;
+    border: 1px solid #e0e0e0;
 }
 .gsc-reactions-popover.open.bottom:before {
-    border-bottom-color: #e4e4e4;
+    border-bottom-color: #e7e7e7;
 }
 .gsc-reactions-popover.open.top:before {
-    border-top-color: #e4e4e4;
+    border-top-color: #e7e7e7;
 }
 .gsc-emoji-button.has-reacted {
     border-width: 0px;
@@ -85,7 +85,7 @@ body * {
     padding-top: 0;
     width: 103px;
     color: #7c8190;
-    margin-left: auto;
+    margin: 5px 8px;
 }
 .color-bg-tertiary {
     background-color: #fff;
@@ -95,5 +95,9 @@ body * {
     display: flex;
     gap: .5rem;
     justify-content: space-between;
-    margin-bottom: 0;
+    margin-bottom: 8px;
+}
+.gsc-reply-box .form-control {
+    background: #ffffff;
+    border-color: transparent;
 }
